@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-color: #F4F3ED;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: #333;
+}
+
+header {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #262626;
+}
+
+.catalog {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.addform {
+    /* position: absolute;
+    top: 40%;
+    left: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 200px;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #262626;
+}
+
+.category {
+    display: flex;
+    gap: 20px;
+}
+
+.category a {
+    font-size: 17px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+}
+
+.catalog form {
+    display: flex;
+    gap: 20px;
+    width: 400px;
+}
+
+.btn {
+    color: #FFFFFF;
+    background: #262626;
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 29px;
+    padding-bottom: 30px;
+}
+
+
+
+.addform input {
+    width: 600px;
+    height: 50px;
+    padding: 10px 5px;
+    background-color: transparent;
+    font-size: 17px;
+}
+
